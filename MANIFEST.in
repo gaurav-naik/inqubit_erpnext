@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include inqubit_erpnext *.css
+recursive-include inqubit_erpnext *.csv
+recursive-include inqubit_erpnext *.html
+recursive-include inqubit_erpnext *.ico
+recursive-include inqubit_erpnext *.js
+recursive-include inqubit_erpnext *.json
+recursive-include inqubit_erpnext *.md
+recursive-include inqubit_erpnext *.png
+recursive-include inqubit_erpnext *.py
+recursive-include inqubit_erpnext *.svg
+recursive-include inqubit_erpnext *.txt
+recursive-exclude inqubit_erpnext *.pyc
