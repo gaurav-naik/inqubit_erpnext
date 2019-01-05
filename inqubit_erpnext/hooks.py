@@ -120,3 +120,9 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "inqubit_erpnext.event.get_events"
 # }
 
+fixtures = [
+	{"dt":"Custom Field", "filters": [["name", "in", [
+		"Timesheet Detail-iqb_sb_task_notes",
+		"Timesheet Detail-iqb_task_notes"
+	]]]},
+]
